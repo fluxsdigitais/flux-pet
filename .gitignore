@@ -1,5 +1,22 @@
 /node_modules
 /.next
 /out
+
+# Vercel
+.vercel
+
+# Environment files (commit an explicit example file separately if needed)
+.env*
+!.env.example
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Test artifacts
+/playwright-report
+/test-results
+
+# Local/editor files
 .DS_Store
 *.log
